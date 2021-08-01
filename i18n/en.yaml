@@ -1,0 +1,47 @@
+- id: read_more
+  translation: Read More
+
+- id: welcome
+  translation: Welcome to Bella Beauti
+
+- id: trending
+  translation: News
+
+- id: description
+  translation: Bella Beauti was created to provide those moments for your well-being and health. From feel-good, to health boosting, relaxing to jaw dropping. We're not on the high street so you can relax knowing the door isn't about to burst open.
+
+- id: team
+  translation: Meet Our Members
+
+- id: send
+  translation: Send
+
+- id: first_name
+  translation: Your First Name
+
+- id: last_name
+  translation: Your Last Name
+
+- id: email 
+  translation: Your Email Address
+
+- id: message
+  translation: Your Message Here
+
+- id: subscribe
+  translation: Subscribe now
+
+- id: recent_post
+  translation: Recent Posts
+
+- id: categories
+  translation: Categories
+
+- id: instafeed
+  translation: Instagram Posts
+
+- id: follow
+  translation: Subscribe & Follow
+
+- id: search_placeholder
+  translation: type & hit enter...
