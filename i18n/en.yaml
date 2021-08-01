@@ -13,6 +13,9 @@
 - id: team
   translation: Meet Our Members
 
+- id: treatments
+  translation: Here are our treatments
+
 - id: send
   translation: Send
 
