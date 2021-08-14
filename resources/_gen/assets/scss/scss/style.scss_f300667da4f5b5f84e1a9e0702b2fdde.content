@@ -701,4 +701,4 @@ textarea.form-control {
   padding-top: 20px; }
 
 .margin-menu {
-  margin: 15px; }
+  padding: 15px; }
