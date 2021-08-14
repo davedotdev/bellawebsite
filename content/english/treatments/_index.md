@@ -4,13 +4,20 @@ image: "images/about.png"
 description: "Below is a list of our current treatments and how long they will take."
 draft: false
 
-# treatments
-treatment:
-  - name: "Natalie Gee"
-    image: "images/team/1.png"
-    description: 
-    time: 
-    products:
-    cost: £35.00
+# menu
+menu:
+  # menu
+  - name : "Natalie Gee"
+    image : "images/treatments/menu_1.png"
+    # menu
+  - name : "Natalie Gee"
+    image : "images/treatments/menu_2.png"
+  # menu
+  - name : "Natalie Gee"
+    image : "images/treatments/menu_3.png"
+  # menu
+  - name : "Natalie Gee"
+    image : "images/treatments/menu_4.png"    
 ---
+
 

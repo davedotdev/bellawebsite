@@ -27,19 +27,6 @@
     {{ end }}
   </ul>
 </div>
-<!-- categories -->
-<div class="widget">
-  <h4 class="widget-title">{{ i18n "categories" }}</h4>
-  {{- if isset .Site.Taxonomies "categories" }}
-  {{- if not (eq (len .Site.Taxonomies.categories) 0) }}
-  <ul class="list-unstyled widget-list">
-    {{- range $name, $items := .Site.Taxonomies.categories }}
-    <li><a href="{{ `categories/` | relLangURL }}{{ $name | urlize | lower }}">{{ $name | humanize }}</a></li>
-    {{- end }}
-  </ul>
-  {{- end }}
-  {{- end }}
-</div>
 
 <div class="widget">
   <h4 class="widget-title">{{ i18n "follow"}}</h4>

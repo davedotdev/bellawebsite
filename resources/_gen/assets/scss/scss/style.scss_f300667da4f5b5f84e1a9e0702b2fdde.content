@@ -692,3 +692,13 @@ textarea.form-control {
   .pagination .page-item.active .page-link {
     background: #DAB768;
     color: #fff; }
+
+.padimg {
+  padding-top: 10px;
+  padding-bottom: 10px; }
+
+.padding-top {
+  padding-top: 20px; }
+
+.margin-menu {
+  margin: 15px; }

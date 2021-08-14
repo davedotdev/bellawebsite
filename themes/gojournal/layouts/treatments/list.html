@@ -4,33 +4,28 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-7 col-md-10 mx-auto text-center">
-        <h1>{{.Title }}</h1>
-      </div>
-      <div class="col-12 mb-4">
-        <img src="{{ .Params.Image | absURL }}" class="img-fluid w-100" alt="">
-      </div>
-      <div class="col-lg-7 col-md-10 mx-auto">
-        <div class="content">{{.Content}}</div>
+        <h2>{{ i18n "treatments"}}</h2>
       </div>
     </div>
   </div>
 </section>
 
-<!-- team -->
-{{ if gt (len .Params.Treatment) 0 }}
-<section class="section-sm">
+<section class="pt-4">
+<div class="col-lg-9 mx-auto mb-5 mb-lg-0">
+  <div class="content">{{.Content}}</div>
+</div>
+</section>
+
+<!-- menu -->
+{{ if gt (len .Params.Menu) 0 }}
+<section>
   <div class="container">
-    <div class="row">
-      <div class="col-12 text-center">
-        <h2 class="section-title">{{ i18n "treatments" }}</h2>
-      </div>
-      {{ range .Params.Team }}
-      <div class="col-lg-3 col-sm-6 mb-4">
+    <div class="row justify-content-around">
+      {{ range .Params.Menu }}
+      <div class="col-lg-6 col-sm-12 mb-12 margin-menu">
         <div class="card bg-transparent">
           <div class="card-body p-0">
             <img src="{{ .image | absURL }}" class="card-img-top mb-3" alt="">
-            <h4 class="card-title mb-2">{{ .name | title }}</h4>
-            <p class="text-light">{{ .designation | markdownify }}</p>
           </div>
         </div>
       </div>
@@ -39,6 +34,5 @@
   </div>
 </section>
 {{ end }}
-<!-- /teem -->
-
+<!-- /team -->
 {{ end }}

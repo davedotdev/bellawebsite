@@ -3,7 +3,7 @@ baseURL = "https://bellabeauti.co.uk"
 title = "Bella Beauti"
 theme = "gojournal"
 # post pagination
-paginate = "3"
+paginate = "4"
 # post excerpt
 summaryLength = "20"
 # disqus short name
@@ -48,28 +48,17 @@ link = "plugins/instafeed/instafeed.min.js"
 ############################## navigation ###############################
 
 # main menu
-[[menu.main]]
-name = "About"
-URL = "about"
-weight = 1
+# footer menu
 
 [[menu.main]]
 name = "Treatments"
 URL = "treatments"
-weight = 2
-  
-[[menu.main]]
-name = "Bookings"
-URL = "bookings"
-weight = 3
-
-# footer menu
+weight = 1
 
 [[menu.footer]]
 name = "contact"
 URL = "contact"
 weight = 1
-
 
 [[menu.footer]]
 name = "privacy policy"
