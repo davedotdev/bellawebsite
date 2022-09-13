@@ -57,7 +57,7 @@ weight = 1
 
 [[menu.footer]]
 name = "contact"
-URL = "https://contactform.is/a7b23ac3f-80f1-4ff7-b6e6-699744541c1a"
+URL = "mailto:natalie@bellabeauti.co.uk"
 weight = 1
 
 [[menu.footer]]
@@ -85,9 +85,7 @@ preloader = "" # use jpg, png, svg or gif format.
 # Subscription
 [params.subscription]
 enable = false
-# mailchimp subsciption
-# mailchimp_form_action = "https://gmail.us4.list-manage.com/subscribe/post?u=463ee871f45d2d93748e77cad&amp;id=a0a2c6d074" # replace this url with yours
-# mailchimp_form_name = "b_463ee871f45d2d93748e77cad_a0a2c6d074" # replace this code with yours
+
 
 # promotion 
 [params.promotion]
@@ -95,11 +93,6 @@ enable = false
 image = "images/promotion.png"
 link = "#"
 
-# Instagram feed
-# [params.instafeed]
-# enable = true
-# user_id = "4044026246"
-# access_token = "4044026246.1677ed0.8896752506ed4402a0519d23b8f50a17"
   
 ############################# social site ########################
 [[params.social]]
@@ -116,26 +109,6 @@ link = "mailto:natalie@bellabeauti.co.uk"
 title = "telephone;"
 icon = "ti-mobile" # themify icon : https://themify.me/themify-icons
 link = "tel:07708698600"
-
-# [[params.social]]
-# title = "twitter"
-# icon = "ti-twitter-alt" # themify icon : https://themify.me/themify-icons
-# link = "#"
-
-# [[params.social]]
-# title = "instagram"
-# icon = "ti-instagram" # themify icon : https://themify.me/themify-icons
-# link = "#"
-
-# [[params.social]]
-# title = "github"
-# icon = "ti-github" # themify icon : https://themify.me/themify-icons
-# link = "#"
-
-# [[params.social]]
-# title = "linkedin"
-# link = "#"
-# #icon = "ti-linkedin" # themify icon : https://themify.me/themify-icons
 
 
 ################################### English language #####################################
